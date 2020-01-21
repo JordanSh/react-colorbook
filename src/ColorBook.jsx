@@ -1,15 +1,15 @@
 import React from "react"
 import styled from "styled-components"
 
-const ColorBook = ({importObject, importObjectName}) => {
-    const colorsObject = {...importObject}
+const ColorBook = ({colorsObject, colorsObjectName}) => {
+    const colorsObject = {...colorsObject}
 
     const mapColors = Object.keys(colorsObject).map((key,index)=>{
         const colorCode = colorsObject[key]
             return(
             <ColorDiv colorCode={colorCode} key={index}>
                 <KeyName >
-                {`\$\{${importObjectName}.${key}\}`}
+                {`\$\{${colorsObjectName}.${key}\}`}
                 </KeyName>
                 <ColorName>
                 {colorsObject[key]}
