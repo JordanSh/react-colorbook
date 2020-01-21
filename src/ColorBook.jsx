@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
-const ColorBook = ({colorsFile, importObjectName}) => {
-    const colorsObject = {...colorsFile}
+const ColorBook = ({importObject, importObjectName}) => {
+    const colorsObject = {...importObject}
 
     const mapColors = Object.keys(colorsObject).map((key,index)=>{
         const colorCode = colorsObject[key]
