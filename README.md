@@ -31,7 +31,7 @@ export const goodMorningTripleGradient = "linear-gradient(to right top, #8d83e9,
 
 Import the ColorBook component and all the colors from the colors file into your react app. you can choose what ever name you wants, I used "c".
 
-```react
+```jsx
 import ColorBook from "react-colorbook"
 import * as c from "../style/colors"
 ```
@@ -55,7 +55,7 @@ This option is generally better for people who keep a seperate color file for co
 The component accepts two arguments: The imported color module, and it's name.
 Providing the name will be used to return a ready-to-use output that you can copy-paste right into your css code, so make sure they match.
 
-```react
+```jsx
 <ColorBook colorsImport={c} colorsImportName="c"/>
 ```
 
@@ -137,7 +137,7 @@ export default App;
 const Wrapper = styled.div``;
 ```
 To view it, just open another tab while your project is running, and add the route to the end of the url:
-```url
+```
 yourUrl/react-colorbook
 ```
 
