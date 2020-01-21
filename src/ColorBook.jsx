@@ -41,6 +41,7 @@ background: #0c5b6e;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
+font-family: Helvetica, Arial, 'Trebuchet MS', sans-serif;
 `
 
 const HeaderContainer = styled.div`
@@ -97,6 +98,7 @@ background: white;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
+align-content: flex-start;
 flex-wrap: wrap;
 overflow-y: auto;
 
@@ -118,16 +120,16 @@ flex-direction: column;
 justify-content: center;
 align-items: space-evenly;
 padding: 5px;
-height: calc(25% - 10px);
-width: calc(25% - 10px);
+height: calc(24% - 10px);
+width: calc(24% - 10px);
 margin: 5px;
 background: ${({colorCode})=>colorCode};
 box-shadow: ${({colorCode})=>colorCode};
 overflow-y: auto;
 
 @media (max-width:767px) {
-    height: calc(50% - 10px);
-    width: calc(50% - 10px);
+    height: calc(49% - 10px);
+    width: calc(49% - 10px);
 }
 `
 

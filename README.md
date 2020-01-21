@@ -1,6 +1,6 @@
 # React ColorBook
 
-Just like when artists blend colors on their colors pallate and later can look and select a color from, ColorBook is a simple react component that takes your colors file and gives your colors, shadows and gradients a visual form.
+Artists blend colors on their colors pallate and later they will look and select a color from that pallate, ColorBook works on the same principal. ColorBook is a simple react component that takes your colors file and gives your colors, shadows and gradients a visual form.
 
 - Ever wanted to pick a color from your colors file but found yourself copy-pasting the color code into an external colorpicker of some sort?
 - Have a general color file for colors that you like to reuse?
@@ -23,8 +23,8 @@ To start, you will need some color file, you can also store shadows and gradient
 export const blushRed = "#ff7393"
 export const brightBlue = "#54f1ff"
 export const freshSeaGreen = "#70ffcf"
-export const outerShadows = "box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.75)"
-export const innerShadows = "box-shadow: inset 2px 2px 10px 2px rgba(0,0,0,0.75)"
+export const outerShadows = "2px 2px 10px 2px rgba(0,0,0,0.75)"
+export const innerShadows = "inset 2px 2px 10px 2px rgba(0,0,0,0.75)"
 export const radialCoreGradient = "radial-gradient(circle, #b071e5, #ff59ad, #ff765a, #ffb500, #a0eb12)"
 export const goodMorningTripleGradient = "linear-gradient(to right top, #8d83e9, #38a1fe, #00b9fd, #00cbeb, #00dad1, #49e2c0, #74e9ad, #9cee9a, #b0f28b, #c7f57c, #e0f66c, #fbf65f)"
 ```
