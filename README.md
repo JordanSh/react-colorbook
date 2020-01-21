@@ -7,6 +7,9 @@ Artists blend colors on their colors palette and later they will look and select
 
 This is the package you've been looking for.
 
+[Example](https://codesandbox.io/s/react-colorbook-example-eicdu)
+[Output](https://eicdu.csb.app/)
+
 ## Getting started
 
 ColorBook is dependent on styled-components, make sure to install them both.
