@@ -120,16 +120,27 @@ flex-direction: column;
 justify-content: center;
 align-items: space-evenly;
 padding: 5px;
-height: calc(24% - 10px);
-width: calc(24% - 10px);
+height: calc(23% - 10px);
+width: calc(23% - 10px);
 margin: 5px;
 background: ${({colorCode})=>colorCode};
 box-shadow: ${({colorCode})=>colorCode};
 overflow-y: auto;
 
+    ::-webkit-scrollbar {
+  		width: 5px;
+	}
+	::-webkit-scrollbar-track {
+		background-color: darkgray;
+	}
+	::-webkit-scrollbar-thumb {
+  		background-color: #323232;
+  		outline: 1px solid slategrey;
+	}
+
 @media (max-width:767px) {
-    height: calc(49% - 10px);
-    width: calc(49% - 10px);
+    height: calc(47% - 10px);
+    width: calc(47% - 10px);
 }
 `
 
