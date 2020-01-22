@@ -1,4 +1,4 @@
-# React ColorBook
+# React ColorBook 🎨
 
 Artists blend colors on their colors palette and later they will look and select a color from that palette, ColorBook works on the same principal. ColorBook is a simple react component that takes your colors file and gives your colors, shadows and gradients a visual form.
 
